@@ -11,7 +11,7 @@ Actually applying a layer of encryption in top of the packets is easy, you shoul
 Packet Chart:
 As separator we will use the ascii character '|', i decided to use this character since its not a common character.
 addReg [key] [value] - Adds a new value to the Registry.
-Sample -> addReg|hello|world
+Sample -> addReg|hello|world\n
   operation ^ key ^ value ^
 deleteReg [key] - Removes a value to the Registry.
 Sample -> deleteReg|hello
